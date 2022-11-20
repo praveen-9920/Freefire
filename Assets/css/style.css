@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgb(207, 255, 192),rgb(255, 0, 34));
+}
+.G{
+    margin-top: 15px;
+}
+.name{
+    font-size: 50px;
+    color: gold;
+    letter-spacing: 1px;
+    font-family: Bookman Old Style;
+    font-weight: 20PX;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(to right#fdfdfd,#ebedee 70%);
+    -webkit-text-stroke-width:2px ;
+    text-align: center;
+}
+.text{
+    background: rgb(41, 77, 241);
+    -webkit-background-clip:text ;
+}
+.main{
+    width: 1295px;
+    height: 60px;
+    border: 2px solid;
+    /* background-color: rgb(105, 253, 204); */
+    background-image: radial-gradient(rgb(105, 253, 204), darkblue);
+}
+.logo{
+    border-radius: 50%;
+}
+.slider{
+    margin-top: 10px;
+    width: 70%;
+    height: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 49%;
+    top: 55%;
+    background-image: url('../images/Gothic.webp');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px red;
+    animation: slider 20s infinite linear;
+}
+@keyframes slider {
+    0%{ background-image: url(../images/Gothic.webp); }
+
+    25%{  background-image: url(../images/moco.jpeg); }
+
+    50%{  background-image: url(../images/mp5.webp); }
+
+    75%{  background-image: url(../images/svd.webp); }
+}
+
+.hit{
+    width: 180px;
+    height: 402px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px 5px goldenrod;
+}
+.AWM{
+    position: absolute;
+    width: 205px;
+    height: 402px;
+    border-radius: 10px;
+    margin-top:-405px;
+    margin-left: 1095px;
+    box-shadow: 1px 2px 10px 5px rgb(60, 255, 0);
+}
+.flex-container{
+    display: flex;
+}
+a{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    transition: 2s all;
+    text-decoration: none;
+}
+a:hover{
+    background-color: cyan;
+    color: black;
+}
+
+
+ul{
+    list-style-type: none;
+    margin-left: 450px;
+    
+}
+li{
+    display: inline;
+    margin-left: 70px;
+    align-items: center;
+    justify-content: center;
+}
+video{
+    margin-left: 290px;
+    margin-top: 100px;
+}
+.vid{
+    margin-top: -440px;
+    margin-left: -35px;
+}
+.vid1{
+    margin-top: -530px;
+    margin-left: 950px;
+}
